@@ -13,12 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('index');
-});
+});*/
 
 
-/*Auth::routes();
+Auth::routes();
+
 Route::middleware('auth')->group(function(){
  Route::view('/','index')->name('index'); 
 
@@ -27,4 +28,4 @@ Route::get('firebase','FirebaseController@index');
 
 Route::get('/home', 'HomeController@index')->name('home');
 });
-Route::post('register', 'Aut\RegisterController@create');*/
+Route::post('register', 'Aut\RegisterController@create');

@@ -45,7 +45,8 @@
 			-->
   </head>
 
-  <body>
+  <body style="background-image: url('img/serviceBg.png');">
+
     @include('Componentes.sidebar')
       <div>
         @include('Componentes.navbar')
