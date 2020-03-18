@@ -574,6 +574,7 @@ pre code {
   overflow-y: scroll;
 }
 
+<<<<<<< HEAD
 .container {
   width: 100%;
   padding-right: 15px;
@@ -581,6 +582,8 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+=======
+>>>>>>> 49dce737759b2e227243d181acb3d7db3e1b2da5
 
 @media (min-width: 576px) {
   .container {
